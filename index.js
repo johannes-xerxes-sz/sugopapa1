@@ -59,22 +59,22 @@ function generateText() {
     for (var i = 0; i < officerLists.length; i++) {
       var officerList =  (i + 1) + ":\n"
       officerList += officerLists[i].getElementsByTagName("input")[0].value + "\n";
-      officerListText += officerList + "\n\n";
+      officerListText += officerList + "\n";
     }
     for(var i = 0; i < suspectLists.length; i++) {
         var suspectList =  (i + 1) + ":\n"
         suspectList += suspectLists[i].getElementsByTagName("input")[0].value + "\n";
-        suspectListText += suspectList + "\n\n";
+        suspectListText += suspectList + "\n";
       }
       for (var i = 0; i < witnessLists.length; i++) {
         var witnessList = (i + 1) + ":\n"
         witnessList += witnessLists[i].getElementsByTagName("input")[0].value + "\n";
-        witnessListText += witnessList + "\n\n";
+        witnessListText += witnessList + "\n";
       }
       for (var i = 0; i < howLists.length; i++) {
         var howList = (i + 1) + ":\n"
         howList += howLists[i].getElementsByTagName("input")[0].value + "\n";
-        howListText += howList + "\n\n";
+        howListText += howList + "\n";
       }
       var text = 
       "Cagayan de Oro City Police Office 3 - AGORA" 
@@ -92,21 +92,20 @@ function generateText() {
       + "\n\nWitness: " 
       + witnessListText 
       + "\n\nHow: " 
-      + "\n\n"
+      + "\n"
       + how
-      + "\n\n"
+      + "\n"
       + howListText
-      + "\n\nStatus: " 
-      + "\n\n"
+      + "\nStatus: " 
+      + "\n"
       + status
-      + "\n\nIOC: " 
+      + "\nIOC: " 
       + ioc
-      + "\n\ncell: " 
+      + "\ncell: " 
       + cell
+      + "\n\nSpot Report to follow"
       document.getElementById("output").value = text;
     }
-    
-  
 
 function copyText() {
   var textArea = document.getElementById("output");

@@ -4,7 +4,12 @@ body, html {
     margin: 0;
     font-size: 16px;
 }
-
+ol {
+    list-style-type: none; /* this will remove the numbers from the ordered list */
+    padding: 12px;
+    margin-bottom: 12px;
+    width: 100%;
+  }
 /* Use a responsive grid layout */
 .container {
     display: grid;
