@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+label {
+    font-weight: bold;
+}
+
+div {
+    margin-bottom: 12px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+ol {
+  list-style-type: none;
+  padding: 12px;
+  margin-bottom: 12px;
+  width: 100%;
+}
+
+ol#officers {
+  border: 1px solid #ccc;
+  background-color: #f5f5f5;
+}
+
+ol#suspects {
+  border: 1px solid #ccc;
+  background-color: #f5f5f5;
+}
+
+ol#witnesses {
+  border: 1px solid #ccc;
+  background-color: #f5f5f5;
+}
+
+ol#how {
+  border: 1px solid #ccc;
+  background-color: #f5f5f5;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+#output {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+}
+
+button {
+    width: 100%;
+    padding: 14px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button#generate {
+    background-color: green;
+    color: white;
+}

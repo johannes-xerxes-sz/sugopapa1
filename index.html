@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Report Generator</title>
+  <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+  <h1>Report Generator</h1>
+  <div>
+    <label>What:</label>
+    <input type="text" id="what">
+  </div>
+  <div>
+    <label>When:</label>
+    <input type="text" id="when">
+  </div>
+  <div>
+    <label>Where:</label>
+    <input type="text" id="where">
+  </div>
+  <label>Who:</label>
+  <div id="suspectLists"></div>
+  <label>Suspect:</label>
+  <button onclick="addSuspectList()">Add Suspect List</button>
+  <label>Officer:</label>
+  <div id="officerLists"></div>
+  <button onclick="addOfficerList()">Add Arresting Officer List</button>
+  <label>Witness:</label>
+  <div id="witnessLists"></div>
+  <button onclick="addWitnessList()">Add Witness List</button>
+  <div>
+    <label>How:</label>
+    <input type="text" id="how">
+  </div>
+  <div id="howLists"></div>
+  <button onclick="addHowList()">Add How List</button>
+  <div>
+    <label>Status:</label>
+    <input type="text" id="status">
+  </div>
+  <div>
+    <label>IOC:</label>
+    <input type="text" id="ioc">
+  </div>
+  <div>
+    <label>CP #:</label>
+    <input type="text" id="cell">
+  </div>
+  <div>
+    <textarea id="output"></textarea>
+  </div>
+  <button onclick="generateText()">Generate Text</button>
+  <button onclick="copyText()">Copy Text</button>
+  <script src="index.js"></script>
+</body>
+</html>
+
