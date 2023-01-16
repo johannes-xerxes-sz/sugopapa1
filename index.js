@@ -79,17 +79,18 @@ function generateText() {
       var text = 
       "Cagayan de Oro City Police Office 3 - AGORA" 
       + "\n\nSKETCHY REPORT" 
-      + "\n\nWhat: " 
+      + "\n\nWHAT: " 
       + what 
-      + "\n\nWhen: " 
+      + "\n\nWHEN: " 
       + when 
-      + "\n\nWhere: " 
+      + "\n\nWHERE: " 
       + where 
-      + "\n\nSuspect: " 
+      + "\n\nWHO: " 
+      + "\n\nSuspects: " 
       + suspectListText 
-      + "\n\nOfficer: " 
+      + "\n\nArresting Officers: " 
       + officerListText 
-      + "\n\nWitness: " 
+      + "\n\nWitness during inventory: " 
       + witnessListText 
       + "\n\nHow: " 
       + "\n"
