@@ -11,8 +11,9 @@ body {
   
   label {
     font-weight: bold;
+    padding-left: 50px;
     display: block;
-    margin: 20px 0;
+    margin: 50px 0;
   }
   
   input[type="text"] {
@@ -27,6 +28,8 @@ body {
   /* Add styles for the buttons */
   button {
     background-color: #4CAF50; /* Green */
+    padding-left: 50px;
+
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
